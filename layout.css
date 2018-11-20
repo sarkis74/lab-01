@@ -1,51 +1,72 @@
 @media screen and (max-width: 768px) {
-    #a {
+    #all {
         width: 480px;
-        height: 75px;
+        height: auto;
+        margin: auto;
+    }
+
+    #a {
+        width: 478px;
+        height: 73px;
         margin: 0;
         padding: 0;
     }
 
     #b {
-        width: 480px;
-        height: 150px;
+        width: 478px;
+        height: 148px;
         margin: 0;
         padding: 0;
     }
 
     #c, #d {
+        width: 478px;
+        height: 123px;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
         width: 480px;
-        height: 125px;
+        height: 500px;
         margin: 0;
         padding: 0;
     }
 
     #e, #f, #g, #h {
-        width: 240px;
-        height: 250px;
+        width: 238px;
+        height: 248px;
         margin: 0;
         padding: 0;
     }
 
-    ol li {
-        margin: 0;
-        padding: 0;
+    /* ol {
+        width: 480px;
+        height: auto;
     }
 
-    /* #e {
+
+    ol {
+    
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    } */
+
+    #e {
         float: left;
     }
 
     #f {
         float: right;
-    } */
+    }
+   
 
     #i {
-        width: 480px;
-        height: 80px;
+        width: 478px;
+        height: 78px;
         margin: 0;
         padding: 0;
     }
-
-
 }

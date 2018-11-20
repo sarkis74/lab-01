@@ -1,11 +1,14 @@
 * {
     border: black 1px solid;
-    margin: auto;
+    margin-left: auto;
     width: 768px;
-
+    
 }
 
 body {
     border: none;
+    margin: auto;
+    padding: auto;
+    max-width: 768px;
 }
 
