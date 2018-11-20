@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    #a {
+        width: 480px;
+        height: 75px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #b {
+        width: 480px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #c, #d {
+        width: 480px;
+        height: 125px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #e, #f, #g, #h {
+        width: 240px;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    ol li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* #e {
+        float: left;
+    }
+
+    #f {
+        float: right;
+    } */
+
+    #i {
+        width: 480px;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
