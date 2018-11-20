@@ -1,14 +1,26 @@
-* {
+/* * {
     border: black 1px solid;
     margin-left: auto;
     width: 768px;
-    
-}
+} */
 
 body {
     border: none;
     margin: auto;
     padding: auto;
-    max-width: 768px;
+    /* max-width: 768px; */
 }
 
+.text {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    padding: auto;
+}
+
+p {
+    border: none;
+    width: 16px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,8 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #all {
         width: 480px;
         height: auto;
         margin: auto;
+        border: black 1px solid;
     }
 
     #a {
@@ -10,6 +11,8 @@
         height: 73px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 73px;
     }
 
     #b {
@@ -17,6 +20,8 @@
         height: 148px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 148px
     }
 
     #c, #d {
@@ -24,6 +29,8 @@
         height: 123px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 123px;
     }
 
     section {
@@ -31,6 +38,7 @@
         height: 500px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
     }
 
     #e, #f, #g, #h {
@@ -38,21 +46,9 @@
         height: 248px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 248px;
     }
-
-    /* ol {
-        width: 480px;
-        height: auto;
-    }
-
-
-    ol {
-    
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-
-    } */
 
     #e {
         float: left;
@@ -61,12 +57,66 @@
     #f {
         float: right;
     }
-   
+    
+    #g {
+        float: left;
+    }
+
+    #h {
+        float: right;
+    }
 
     #i {
         width: 478px;
         height: 78px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 78px;
     }
+}
+
+@media screen and (min-width: 768px) {
+    
+    #all {
+        width: 960px;
+        height: auto;
+        margin: auto;
+    }
+
+    #a {
+        width: 958px;
+        height: 98px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #b {
+        width: 198px;
+        height: 598px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #c {
+        width: 378px;
+        height: 198px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #d {
+        width: 378px;
+        height: 198px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #e {
+        width: 188px;
+        height: 248px;
+        margin: 0;
+        padding
+    }
+
 }
