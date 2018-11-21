@@ -79,9 +79,15 @@
 @media screen and (min-width: 768px) {
     
     #all {
-        width: 960px;
+        width: 768px;
         height: auto;
         margin: auto;
+        border: black 1px solid;
+        
+    }
+
+    #all::after{
+        visibility: hidden;
     }
 
     #a {
@@ -89,6 +95,8 @@
         height: 98px;
         margin: 0;
         padding: 0;
+        border: black 1px solid;
+        line-height: 98px;
     }
 
     #b {
@@ -96,27 +104,78 @@
         height: 598px;
         margin: 0;
         padding: 0;
+        line-height: 598px;
+        /* float: left; */
+    }
+
+    #top-container {
+        width: 756px;
+        height: 198px;
+        clear: right;   
+    }
+
+    #c, #d {
+        
+        margin: 0;
+        padding: 0;
+        border: black 1px solid;
+        line-height: 198px;
     }
 
     #c {
-        width: 378px;
-        height: 198px;
-        margin: 0;
-        padding: 0;
+        float: left;
+        width: 50%;
+        height: inherit;
     }
 
     #d {
-        width: 378px;
-        height: 198px;
-        margin: 0;
-        padding: 0;
+        float: left;
+        width: 50%;
+        height: inherit;
     }
 
-    #e {
-        width: 188px;
-        height: 248px;
+    #bottom-container {
+        width: 756px;
+        /* clear: right; */
+    }
+
+    #e, #f, #g, #h {
+       
+        /* margin: auto;
+        padding: auto; */
+        border: black 1px solid;
+        line-height: 248px;
+    }
+
+    /* #e {
+        float: left;
+        width: 25%;
+    }
+ 
+    #f {
+        float: left;
+        width: 25%;
+    }
+
+    #g {
+        float: left;
+        width: 25%;
+    }
+
+    #h {
+        float: left;
+        width: 25%;
+    } */
+
+    #i {
+        width: 758px;
+        height: 148px;
         margin: 0;
-        padding
+        padding: 0;
+        border: black 1px solid;
+        line-height: 148px;
+        float: right;
+
     }
 
 }
