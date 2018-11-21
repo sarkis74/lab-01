@@ -77,105 +77,55 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+   
     #all {
-        width: 768px;
+        width: 960px;
         height: auto;
         margin: auto;
-        border: black 1px solid;
-        
-    }
-
-    #all::after{
-        visibility: hidden;
     }
 
     #a {
-        width: 958px;
-        height: 98px;
-        margin: 0;
-        padding: 0;
+        width: 960px;
+        height: 100px;
+        box-sizing: border-box;
         border: black 1px solid;
-        line-height: 98px;
+        line-height: 100px;
     }
 
     #b {
-        width: 198px;
-        height: 598px;
-        margin: 0;
-        padding: 0;
-        line-height: 598px;
-        /* float: left; */
-    }
-
-    #top-container {
-        width: 756px;
-        height: 198px;
-        clear: right;   
+        width: 200px;
+        height: 600px;
+        box-sizing: border-box;
+        border: black 1px solid;
+        float: left;
+        line-height: 600px;
     }
 
     #c, #d {
-        
-        margin: 0;
-        padding: 0;
+        width: 380px;
+        height: 200px;
+        box-sizing: border-box;
         border: black 1px solid;
-        line-height: 198px;
-    }
-
-    #c {
         float: left;
-        width: 50%;
-        height: inherit;
-    }
-
-    #d {
-        float: left;
-        width: 50%;
-        height: inherit;
-    }
-
-    #bottom-container {
-        width: 756px;
-        /* clear: right; */
+        line-height: 200px;
     }
 
     #e, #f, #g, #h {
-       
-        /* margin: auto;
-        padding: auto; */
+        width: 190px;
+        height: 250px;
+        box-sizing: border-box;
         border: black 1px solid;
-        line-height: 248px;
-    }
-
-    /* #e {
         float: left;
-        width: 25%;
+        line-height: 250px;
     }
- 
-    #f {
-        float: left;
-        width: 25%;
-    }
-
-    #g {
-        float: left;
-        width: 25%;
-    }
-
-    #h {
-        float: left;
-        width: 25%;
-    } */
 
     #i {
-        width: 758px;
-        height: 148px;
-        margin: 0;
-        padding: 0;
+        width: 760px;
+        height: 150px;
+        box-sizing: border-box;
         border: black 1px solid;
-        line-height: 148px;
-        float: right;
-
+        float: left;
+        line-height: 150px;
     }
-
 }
+
