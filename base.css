@@ -1,14 +1,10 @@
-/* * {
-    border: black 1px solid;
-    margin-left: auto;
-    width: 768px;
-} */
+* {
+    box-sizing: border-box;
+}
 
 body {
-    border: none;
-    margin: auto;
-    padding: auto;
-    /* max-width: 768px; */
+    width: 480px;
+    height: auto;
 }
 
 .text {
@@ -23,4 +19,12 @@ p {
     width: 16px;
     margin: auto;
     text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+
+body { 
+    width: 960px;
+}
+
 }
