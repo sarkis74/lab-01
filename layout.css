@@ -1,131 +1,78 @@
-@media screen and (max-width: 767px) {
-    #all {
-        width: 480px;
-        height: auto;
-        margin: auto;
-        border: black 1px solid;
-    }
-
-    #a {
-        width: 478px;
-        height: 73px;
-        margin: 0;
-        padding: 0;
-        border: black 1px solid;
-        line-height: 73px;
-    }
-
-    #b {
-        width: 478px;
-        height: 148px;
-        margin: 0;
-        padding: 0;
-        border: black 1px solid;
-        line-height: 148px
-    }
-
-    #c, #d {
-        width: 478px;
-        height: 123px;
-        margin: 0;
-        padding: 0;
-        border: black 1px solid;
-        line-height: 123px;
-    }
-
-    section {
-        width: 480px;
-        height: 500px;
-        margin: 0;
-        padding: 0;
-        border: black 1px solid;
-    }
-
-    #e, #f, #g, #h {
-        width: 238px;
-        height: 248px;
-        margin: 0;
-        padding: 0;
-        border: black 1px solid;
-        line-height: 248px;
-    }
-
-    #e {
+/*Default mobile*/
+    div {
         float: left;
-    }
-
-    #f {
-        float: right;
-    }
-    
-    #g {
-        float: left;
-    }
-
-    #h {
-        float: right;
-    }
-
-    #i {
-        width: 478px;
-        height: 78px;
-        margin: 0;
-        padding: 0;
+        background: #999999;
         border: black 1px solid;
-        line-height: 78px;
     }
-}
-
-@media screen and (min-width: 768px) {
    
-    #all {
-        width: 960px;
-        height: auto;
-        margin: auto;
+    .a {
+        width: 480px;
+        height: 75px;
+        line-height: 75px;
     }
 
-    #a {
-        width: 960px;
-        height: 100px;
-        box-sizing: border-box;
-        border: black 1px solid;
-        line-height: 100px;
+    .b {
+        width: 480px;
+        height: 150px;
+        line-height: 150px
     }
 
-    #b {
-        width: 200px;
-        height: 600px;
-        box-sizing: border-box;
-        border: black 1px solid;
-        float: left;
-        line-height: 600px;
+    .c, .d {
+        width: 100%;
+        height: 125px;
+        line-height: 125px;
     }
 
-    #c, #d {
-        width: 380px;
-        height: 200px;
-        box-sizing: border-box;
-        border: black 1px solid;
-        float: left;
-        line-height: 200px;
-    }
-
-    #e, #f, #g, #h {
-        width: 190px;
+    .e, .f, .g, .h {
+        width: 50%;
         height: 250px;
-        box-sizing: border-box;
-        border: black 1px solid;
-        float: left;
         line-height: 250px;
     }
 
-    #i {
+
+    .i {
+        width: 480px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+@media only screen and (min-width: 767px) {
+
+    div {
+        float: left;
+        background: #999999;
+    }
+    
+    .a {
+        width: 960px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .b {
+        width: 200px;
+        height: 600px;
+        line-height: 600px
+    }
+
+    .c, .d {
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .e, .f, .g, .h {
+        width: 190px;
+        line-height: 250px;
+    }
+
+
+    .i {
         width: 760px;
         height: 150px;
-        box-sizing: border-box;
-        border: black 1px solid;
-        float: left;
         line-height: 150px;
     }
+    
 }
+        
 
