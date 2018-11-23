@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*Default mobile*/
 body {
     width: 480px;
     height: auto;
@@ -20,7 +20,7 @@ p {
     margin: auto;
     text-align: center;
 }
-
+/*Desktop view*/
 @media only screen and (min-width: 767px) {
 
 body { 
