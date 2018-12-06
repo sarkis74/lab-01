@@ -1,11 +1,8 @@
-* {
-    box-sizing: border-box;
-}
 /*Default mobile*/
-body {
-    width: 480px;
-    height: auto;
-}
+/* body {
+    display: grid;
+    min-height: 100%;
+} */
 
 .text {
     width: 16px;
@@ -21,10 +18,10 @@ p {
     text-align: center;
 }
 /*Desktop view*/
-@media only screen and (min-width: 767px) {
+/* @media only screen and (min-width: 767px) {
 
 body { 
     width: 960px;
 }
 
-}
+} */
